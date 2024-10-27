@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>core_type__c</fullName>
+    <label>core type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Laptop_names__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>core i3</fullName>
+                <default>false</default>
+                <label>core i3</label>
+            </value>
+            <value>
+                <fullName>core i5</fullName>
+                <default>false</default>
+                <label>core i5</label>
+            </value>
+            <value>
+                <fullName>core i7</fullName>
+                <default>false</default>
+                <label>core i7</label>
+            </value>
+            <value>
+                <fullName>Bionic chip .</fullName>
+                <default>false</default>
+                <label>Bionic chip .</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Dell</controllingFieldValue>
+            <controllingFieldValue>Acer</controllingFieldValue>
+            <controllingFieldValue>Hp</controllingFieldValue>
+            <valueName>core i3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dell</controllingFieldValue>
+            <controllingFieldValue>Acer</controllingFieldValue>
+            <controllingFieldValue>Hp</controllingFieldValue>
+            <valueName>core i5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dell</controllingFieldValue>
+            <controllingFieldValue>Acer</controllingFieldValue>
+            <controllingFieldValue>Hp</controllingFieldValue>
+            <valueName>core i7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mac</controllingFieldValue>
+            <valueName>Bionic chip .</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

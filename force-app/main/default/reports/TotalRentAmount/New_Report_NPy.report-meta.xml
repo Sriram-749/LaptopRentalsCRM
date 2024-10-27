@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_74462193</developerName>
+        <masterLabel>types of versions</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>Laptop_Bookings__c.Amount__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>2,000</to>
+            </sourceValues>
+            <value>basic</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>2,000</from>
+                <to>7,000</to>
+            </sourceValues>
+            <value>intermediate</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>7,000</from>
+                <to>9,000</to>
+            </sourceValues>
+            <value>high</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>9,000</from>
+            </sourceValues>
+            <value>very high</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CHILD_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Laptop_Bookings__c.Laptop_names__c</field>
+    </columns>
+    <columns>
+        <field>Laptop_Bookings__c.core_type__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Laptop_Bookings__c.Amount__c</field>
+    </columns>
+    <description>A report of laptop bookings</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_74462193</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>New Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$consumer__c$Laptop_Bookings__c@Laptop_Bookings__c.Total_No_Of_Laptops__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
